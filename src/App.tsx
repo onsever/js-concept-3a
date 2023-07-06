@@ -1,11 +1,12 @@
-import React from "react";
+import Counter from "./components/Counter";
+import "./App.css";
 
 const App = () => {
-    return (
-        <div>
-        <h1>Hello, World!</h1>
-        </div>
-    );
-}
+  return (
+    <div className="container">
+      <Counter count={0} />
+    </div>
+  );
+};
 
 export default App;
